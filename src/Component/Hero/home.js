@@ -12,22 +12,22 @@ const Home = () => {
       <section className='hero' id='home'>
         <div className='container f_flex top'>
           <div className='left top'>
-            <h3>WELCOME TO MY WORLD</h3>
+            <h3>Bienvenidos, me presento</h3>
             <h1>
               Yo soy <span>Alexis Macz</span>
             </h1>
             <h2>
-              a
+              un
               <span>
-                <Typewriter words={[" Professional Coder.", " Developer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
+                <Typewriter words={[" Programador", " Desarrollador Web", " Aprendiz"]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
               </span>
             </h2>
 
-            <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
+            <p>Soy un experimento, crativo y me gusta estar aprendiendo constantemente, siempre me mantengo experimento con programas, el idioma que más domino actualmente es el JavaScript pero también se las bases de otros idiomas, incluyendo Sql, php, HTML, CSS</p>
 
             <div className='hero_btn d_flex'>
               <div className='col_1'>
-                <h4>FIND WITH ME</h4>
+                <h4>Redes</h4>
                 <div className='button'>
                   <button className='btn_shadow'>
                     <i class='fab fa-facebook-f'></i>
@@ -41,7 +41,7 @@ const Home = () => {
                 </div>
               </div>
               <div className='col_1'>
-                <h4>BEST SKILL ON</h4>
+                <h4>Skill</h4>
                 <button className='btn_shadow'>
                   <img src={skill1} alt='' />
                 </button>
