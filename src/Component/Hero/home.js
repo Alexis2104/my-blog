@@ -30,7 +30,7 @@ const Home = () => {
                 <h4>Redes</h4>
                 <div className='button'>
                   <button className='btn_shadow'>
-                    <i class='fab fa-facebook-f'></i>
+                   <a href="https://oxdea.gt/tienda/"> <i class='fab fa-facebook-f'></i> </a>
                   </button>
                   <button className='btn_shadow'>
                     <i class='fab fa-instagram'></i>
